@@ -37,10 +37,12 @@ abstract class _ControllerStore with Store {
     list.removeAt(index);
   }
 
+  // Adiciona Questionario
   addQuestionario(
       List<QuestionarioModel> list, QuestionarioModel questionarioModel) {
     list.add(questionarioModel);
   }
 
+  // Adiciona Questão
   addQuestao() {}
 }
